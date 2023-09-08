@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: "Intro Book";
+    src: url("../fonts/Intro-Book.ttf") format("ttf"),
+    url("../fonts/Intro-Book.woff") format("woff");
+    font-weight: 400;
+    font-style: Normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Intro Book Italic";
+    src: url("../fonts/Intro-Book-Italic.ttf") format("ttf"),
+    url("../fonts/Intro-Book-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: Normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Intro Regular";
+    src: url("../fonts/Intro-Regular.ttf") format("ttf"),
+    url("../fonts/Intro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: Normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Intro Light";
+    src: url("../fonts/Intro-Light.ttf") format("ttf"),
+    url("../fonts/Intro-Light.woff") format("woff");
+    font-weight: 400;
+    font-style: Normal;
+    font-display: swap;
+}
+:root {
+    --yellow: #FFDD2D;
+    --blue: #2B6BF3;
+    --darkblue: #1D253C;
+    --LightBlue: #C2D2F4;
+    --Red: #FD466E;
+    --BgColor: #F1F4FC;
+    --LightFreen: #6FCF97;
+    --green: #27AE60;
+}
+html{
+    overflow-x:hidden;
+}
+h1 {
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1D253C;
+}
+
+h2 {
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1D253C;
+}
+
+h3 {
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1D253C;
+}
+
+h4 {
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1D253C;
+}
+
+h5 {
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1D253C;
+}
+.container{
+    width: 85.375rem;
+    margin: 0 auto;
+}
