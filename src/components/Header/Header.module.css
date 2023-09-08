@@ -58,7 +58,6 @@
 }
 
 .nav__inner_search {
-    /*margin-right: 211px;*/
     margin: 0 auto;
 }
 
@@ -123,15 +122,14 @@
 
 }
 
-.nav__link_items {
+.nav__inner_link_items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 32px;
 }
 
-.nav__link_items a {
-
+.nav__inner_link_items a {
     font-family: 'Intro Book';
     font-style: normal;
     font-weight: 400;

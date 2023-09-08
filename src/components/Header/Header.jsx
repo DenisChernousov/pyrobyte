@@ -27,7 +27,7 @@ const Header = () => {
                 <div className={style.nav__inner_search}>
                     <input type="text" placeholder="Track a Package"/>
                 </div>
-                <div className={style.nav}>
+                <div className={style.nav__inner_link_items}>
                     <Link to="#" className={style.nav__inner_link_item}>Send a Parcel</Link>
                     <Link to="#" className={style.nav__inner_link_item}>Become a Courier</Link>
                     <Link to="#" className={style.nav__inner_link_login}>
