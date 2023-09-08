@@ -11,11 +11,11 @@ const Header = () => {
     return (
 
         <header className={style.header}>
-            <div className={style.burgerInner}>
+            <div className={style.burger__inner}>
                 <Burger/>
             </div>
             <div className={style.header__leftSection}>
-                <div className={style.header__LeftSection_logo}>
+                <div className={style.header__leftSection_logo}>
                     <img src={logo}/>
                 </div>
             </div>

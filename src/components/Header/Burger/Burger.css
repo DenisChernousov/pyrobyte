@@ -4,7 +4,7 @@
 }
 
 .burger {
-    width: 100%;
+    width: 100vw;
     height: 64px;
     padding: 0 16px;
     display: flex;
@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.burgerInner{
+.burger__inner{
     width: 100%;
     display: flex;
     align-items: center;
@@ -33,9 +33,6 @@
     justify-content: space-between;
     flex-direction: column;
     cursor: pointer;
-    /*position: absolute;*/
-    /*top: 26px;*/
-    /*right: 18px;*/
     z-index: 2;
 }
 .burger-bar{
@@ -60,18 +57,17 @@
     right: 0;
     z-index: 1;
 }
-.geo{
+.nav__inner_geo {
     z-index: 2;
     display: flex;
     align-items: center;
 }
 
-.geo img{
+.nav__inner_geo img{
     width: 12px;
     height: 16px;
 }
-.geo a{
-
+.nav__inner_geo a{
     font-family: 'Intro Book';
     font-style: normal;
     font-weight: 400;

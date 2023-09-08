@@ -25,7 +25,7 @@ const Burger = (props) => {
 
     return (
         <div className="burger">
-            <div className="burgerInner">
+            <div className="burger__inner">
                 <div className="login">
                     <img src={loginBtn}/>
                 </div>
@@ -39,7 +39,7 @@ const Burger = (props) => {
                 </div>
             </div>
             <div className={menu_class}>
-                <div className="geo">
+                <div className="nav__inner_geo">
                     <img src={pin}/><Link to="#">NY, Manhattan</Link>
                 </div>
                 <div className="trackInner">

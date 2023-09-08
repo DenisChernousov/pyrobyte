@@ -244,5 +244,6 @@
     }
     .inner{
         overflow: hidden;
+        width: 100vw;
     }
 }

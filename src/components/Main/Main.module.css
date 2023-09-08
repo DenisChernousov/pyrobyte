@@ -14,10 +14,9 @@
 .container {
     display: flex;
     justify-content: space-between;
-    /*max-width: 1366px;*/
-    height: 784px;
+      height: 784px;
     width: 100%;
-    /*margin: 0 auto;*/
+
 
 }
 
@@ -179,8 +178,7 @@
     .main {
         padding: 0 16px;
         padding-top: 32px;
-        /*height: 100vh;*/
-        width: 100%;
+          width: 100vw;
         background: none;
         background-color: #F8FAFF;
     }

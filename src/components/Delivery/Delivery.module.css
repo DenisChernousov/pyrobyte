@@ -1,5 +1,5 @@
 .delivery {
-    /*width: 100vw;*/
+
     margin-top: 98px;
 }
 
@@ -55,7 +55,7 @@
 
     }
     .delivery {
-
+        width: 100vw;
         margin-top: 54px;
 
     }
