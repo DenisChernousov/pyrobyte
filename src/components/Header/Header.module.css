@@ -11,36 +11,36 @@
 .burgerInner{
     display: none;
 }
-.headerLeftSection{
+.header__LeftSection{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.logo img {
+.header__LeftSection_logo img {
     width: 192px;
     height: 64px;
     margin-left: 32px;
     margin-right: 68px;
 }
-.navBox{
+.nav__inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     width: 100%;
 }
-.geo {
+.nav__inner_geo {
     display: flex;
     align-items: center;
 }
 
-.geo img {
+.nav__inner_geo img {
     width: 12px;
     height: 16px;
 }
 
-.geo a {
+.nav__inner_geo a {
     font-family: 'Intro Book';
     font-style: normal;
     font-weight: 400;
@@ -52,17 +52,17 @@
     border-bottom: 1px solid transparent;
 }
 
-.geo a:hover {
+.nav__inner_geo a:hover {
     opacity: 0.7;
     border-bottom: 1px dashed #C1CFEF;
 }
 
-.search {
+.nav__inner_search {
     /*margin-right: 211px;*/
     margin: 0 auto;
 }
 
-.search input {
+.nav__inner_search input {
     width: 184px;
     height: 40px;
     top: 20px;
@@ -87,7 +87,7 @@
 
 }
 
-.search input::placeholder {
+.nav__inner_search input::placeholder {
     font-family: 'Intro Book';
     font-style: normal;
     font-weight: 400;
@@ -99,10 +99,10 @@
     opacity: 0.56;
 }
 
-.search input:focus::placeholder {
+.nav__inner_search input:focus::placeholder {
     opacity: 1;
 }
-.search input:hover{
+.nav__inner_search input:hover{
     background: #F1F5FF;
     background-image: url('../../assets/img/Search.svg');
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@
     background-clip: padding-box;
 
 }
-.search input:focus {
+.nav__inner_search input:focus {
     opacity: 1;
     border: 1px solid var(--blue);
     background: url('../../assets/img/SearchActive.svg');
@@ -144,18 +144,18 @@
 
 
 
-.linkItem + .linkItem {
+.nav__inner_link_item + .linkItem {
     margin-left: 36px;
 
 }
-.linkItem:hover {
+.nav__inner_link_item:hover {
     opacity: 0.7;
     border-bottom: 1px dashed #C1CFEF;
 }
-.linkLogin:hover{
+.nav__inner_link_item:hover{
     opacity: 0.7;
 }
-.linkLogin {
+.nav__inner_link_login {
     margin-right: 32px;
     margin-left: 32px;
 }
@@ -168,13 +168,13 @@
     margin: 0 auto;
 
 }
-    .leftSect{
+    .header__leftSection{
         display: none;
     }
     .header{
         /*padding: 0 19px;*/
     }
-  .navBox{
+  .nav__inner{
       display: none;
   }
 }

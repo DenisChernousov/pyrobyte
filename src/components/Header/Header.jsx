@@ -7,33 +7,33 @@ import style from "./Header.module.css";
 import Burger from "./Burger/Burger";
 
 
-
 const Header = () => {
     return (
 
         <header className={style.header}>
             <div className={style.burgerInner}>
-<Burger/>
+                <Burger/>
             </div>
-            <div className={style.headerLeftSection}>
-                <div className={style.logo}>
+            <div className={style.header__leftSection}>
+                <div className={style.header__LeftSection_logo}>
                     <img src={logo}/>
-                </div></div>
-                <div className={style.navBox}>
-                    <div className={style.geo}>
-                        <img src={pin}/><Link to="#">NY, Manhattan</Link>
-                    </div>
+                </div>
+            </div>
+            <div className={style.nav__inner}>
+                <div className={style.nav__inner_geo}>
+                    <img src={pin}/><Link to="#">NY, Manhattan</Link>
+                </div>
 
-                    <div className={style.search}>
-                        <input type="text" placeholder="Track a Package"/>
-                    </div>
-                    <div className={style.nav}>
-                        <Link to="#" className={style.linkItem}>Send a Parcel</Link>
-                        <Link to="#" className={style.linkItem}>Become a Courier</Link>
-                        <Link to="#" className={style.linkLogin}>
-                            <img src={login}/>
-                        </Link>
-                    </div>
+                <div className={style.nav__inner_search}>
+                    <input type="text" placeholder="Track a Package"/>
+                </div>
+                <div className={style.nav}>
+                    <Link to="#" className={style.nav__inner_link_item}>Send a Parcel</Link>
+                    <Link to="#" className={style.nav__inner_link_item}>Become a Courier</Link>
+                    <Link to="#" className={style.nav__inner_link_login}>
+                        <img src={login}/>
+                    </Link>
+                </div>
 
             </div>
         </header>
